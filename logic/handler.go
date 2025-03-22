@@ -1,10 +1,10 @@
 package logic
 
 import (
+	utils "beammedown/goAuth/models"
 	"database/sql"
 	"errors"
 	"fmt"
-	utils "gobackend/models"
 	"os"
 
 	_ "modernc.org/sqlite"

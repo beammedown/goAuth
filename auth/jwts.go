@@ -1,12 +1,12 @@
 package auth
 
 import (
+	utils "beammedown/goAuth/models"
 	"crypto/rsa"
 	"crypto/sha256"
 	"encoding/hex"
 	"errors"
 	"fmt"
-	utils "gobackend/models"
 	"os"
 	"time"
 

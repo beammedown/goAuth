@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"os"
 
-	"gobackend/auth"
-	"gobackend/logic"
-	"gobackend/models"
+	"beammedown/goAuth/auth"
+	"beammedown/goAuth/logic"
+	"beammedown/goAuth/models"
 
 	"github.com/gorilla/context"
 	"github.com/gorilla/mux"

@@ -1,3 +1,7 @@
 *.log
 .env
 *.pem
+*.sqlite3
+*.db
+*.sqlite
+*.db3

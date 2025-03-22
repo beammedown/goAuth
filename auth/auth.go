@@ -1,12 +1,11 @@
 package auth
 
 import (
+	"beammedown/goAuth/logic"
+	"beammedown/goAuth/models"
 	"encoding/base64"
-	"encoding/json"
 	"errors"
 	"fmt"
-	"gobackend/logic"
-	"gobackend/models"
 	"net/http"
 	"strings"
 
